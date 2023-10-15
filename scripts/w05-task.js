@@ -65,8 +65,6 @@ const sortBy = (temples) => {
 document.querySelector("#sortBy").addEventListener("change", () => {
   sortBy(templeList);
 });
-
-
 getTemples();
 
 /* Event Listener */
