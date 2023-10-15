@@ -1,4 +1,4 @@
-/*W05: Programming Tasks */
+/* W05: Programming Tasks */
 
 /* Declare and initialize global variables */
 const templesElement = document.getElementById("temples");
