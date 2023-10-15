@@ -6,7 +6,10 @@ let templeList = [];
 
 /* async displayTemples Function */
 const displayTemples = (temples) => {
-}
+    temples.forEach(temple => {
+        
+    });
+};
 
 /* async getTemples Function using fetch()*/
 const getTemples = async () => {
@@ -15,6 +18,7 @@ const getTemples = async () => {
 
 
 /* reset Function */
+
 
 
 /* sortBy Function */
