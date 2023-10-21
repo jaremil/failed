@@ -3,16 +3,14 @@
 /* Profile Object  */
 
 
-
-
 /* Populate Profile Object with placesLive objects */
-
-
 
 
 /* DOM Manipulation - Output */
 
+
 /* Name */
+
 
 /* Photo with attributes */
 
@@ -24,5 +22,4 @@
 
 
 /* Places Lived DataList */
-
 
