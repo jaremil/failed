@@ -1,7 +1,7 @@
 // API KEY: f40ac14d5e8bb26ea2c3385142470cff
 
 
-export function groupRegionsByCategory(regions) {
+export async function groupRegionsByCategory(regions) {
 // At least one array is used in the application.
     const regions = [
         "Northeast_Connecticut", "Northeast_Delaware", "Northeast_Maine", "Northeast_Maryland", "Northeast_Massachusetts", "Northeast_New Hampshire", "Northeast_New Jersey", "Northeast_New York", "Northeast_Pennsylvania", "Northeast_Rhode Island", "Northeast_Vermont", "Southeast_Alabama", "Southeast_Arkansas", "Southeast_Florida", "Southeast_Georgia", "Southeast_Kentucky", "Southeast_Louisiana", "Southeast_Mississippi", "Southeast_North Carolina", "Southeast_South Carolina", "Southeast_Tennessee", "Southeast_Virginia", "Southeast_West Virginia", "West_Alaska", "West_Arizona", "West_California", "West_Colorado", "West_Hawaii", "West_Idaho", "West_Montana", "West_Nevada", "West_New Mexico", "West_Oregon", "West_Utah", "West_Washington", "West_Wyoming", "Midwest_Illinois", "Midwest_Indiana", "Midwest_Iowa", "Midwest_Kansas", "Midwest_Michigan", "Midwest_Minnesota", "Midwest_Missouri", "Midwest_Nebraska", "Midwest_North Dakota", "Midwest_Ohio", "Midwest_South Dakota", "Midwest_Wisconsin"];

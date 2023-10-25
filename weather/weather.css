@@ -1,23 +1,39 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 20px;
-  }
-  
-  .button-container {
-    margin-bottom: 20px;
-  }
-  
-  button {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
     font-size: 16px;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
-  }
-  
-  .weather-display {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.weather-info {
     margin-top: 20px;
-    font-size: 18px;
-  }
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
