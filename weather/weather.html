@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Weather Forecast Search</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Program</title>
+  <link rel="stylesheet" href="weather.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Weather Forecast Search</h1>
-        <div class="search-container">
-            <input type="text" id="search-bar" placeholder="Enter location...">
-            <button id="search-button">Search</button>
-        </div>
-        <div class="region-buttons">
-            <button class="region-button" onclick="searchWeather('Northeast')">Northeast</button>
-            <button class="region-button" onclick="searchWeather('Southwest')">Southwest</button>
-            <button class="region-button" onclick="searchWeather('West')">West</button>
-            <button class="region-button" onclick="searchWeather('Southeast')">Southeast</button>
-            <button class="region-button" onclick="searchWeather('Midwest')">Midwest</button>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+  <div class="button-container">
+    <button onclick="weather_display_northwest()">Northwest</button>
+    <button onclick="weather_display_southwest()">Southwest</button>
+    <button onclick="weather_display_west()">West</button>
+    <button onclick="weather_display_southeast()">Southeast</button>
+    <button onclick="weather_display_midwest()">Midwest</button>
+  </div>
+  <div id="weather_data_display" class="weather-display"></div>
+  <script src="main.js"></script>
 </body>
 </html>

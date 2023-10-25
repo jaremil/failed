@@ -1,13 +1,13 @@
 // At least one module is used with supporting import and export functionality.
-// import {} from "./functions";
+import {weather_display_northeast, weather_display_southwest, weather_display_west, weather_display_southeast, weather_display_midwest} from "./functions.js";
 
-// At least one array is used in the application.
-const regions = {
-    Northeast: ["Connecticut", "Delaware", "Maine", "Maryland", "Massachusetts", "New Hampshire", "New Jersey", "New York", "Pennsylvania", "Rhode Island", "Vermont"],
-    Southeast: ["Alabama", "Arkansas", "Florida", "Georgia", "Kentucky", "Louisiana", "Mississippi", "North Carolina", "South Carolina", "Tennessee", "Virginia", "West Virginia"],
-    West: ["Alaska", "Arizona", "California", "Colorado", "Hawaii", "Idaho", "Montana", "Nevada", "New Mexico", "Oregon", "Utah", "Washington", "Wyoming"],
-    Midwest: ["Illinois", "Indiana", "Iowa", "Kansas", "Michigan", "Minnesota", "Missouri", "Nebraska", "North Dakota", "Ohio", "South Dakota", "Wisconsin"]
-};
-
-//At least one module is used with supporting import and export functionality.
-export default {regions};
+let Northeast_button = document.getElementById("Northeast");
+Northeast_button.addEventListener("click", weather_display_northeast);
+let Southwest_button = document.getElementById("Southwest");
+Southwest_button.addEventListener("click", weather_display_southwest);
+let West_button = document.getElementById("West");
+West_button.addEventListener("click", weather_display_west);
+let Southeast_button = document.getElementById("Southeast");
+Southeast_button.addEventListener("click", weather_display_southeast);
+let Midwest_button = document.getElementById("Midwest");
+Midwest_button.addEventListener("click", weather_display_midwest);
