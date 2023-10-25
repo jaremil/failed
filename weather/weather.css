@@ -11,11 +11,7 @@ body {
     text-align: center;
 }
 
-.buttons {
-    margin: 20px 0;
-}
-
-button {
+.buttons button {
     font-size: 16px;
     margin: 5px;
     padding: 10px 20px;
@@ -26,7 +22,7 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+.buttons button:hover {
     background-color: #45a049;
 }
 
